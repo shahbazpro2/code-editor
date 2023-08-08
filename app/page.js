@@ -73,7 +73,7 @@ export default function Home() {
         </div>
         <div className="col-span-1">
           <div className="text-xl font-bold mb-2">Converted Code</div>
-          <div id="converted" className="border rounded p-5 min-h-[50vh]"></div>
+          <div id="converted" className="border rounded p-5 min-h-[50vh] overflow-auto"></div>
         </div>
       </div>
     </div>
